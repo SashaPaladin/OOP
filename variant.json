@@ -1,0 +1,16 @@
+{
+  "variant": 18,
+  "figures": [
+    "Square",
+    "Rectangle",
+    "Trapezoid"
+  ],
+  "containers": [
+    "TBinaryTree",
+    "TStack"
+  ],
+  "finished_labs": {
+    "lab1": "1_lab",
+    "lab2": "2_lab"
+  }
+}
