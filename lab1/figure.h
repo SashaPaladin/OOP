@@ -16,7 +16,7 @@ public:
 
     virtual double Area() = 0;
 
-    virtual size_t VertexNumbers() = 0;
+    virtual size_t VertexesNumbers() = 0;
 
     virtual  ~Figure() = default;
 };

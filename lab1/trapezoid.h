@@ -17,7 +17,7 @@ public:
 
     void Print(ostream &os);
 
-    size_t VertexNumbers();
+    size_t VertexesNumbers();
 
     double Area() override;
 

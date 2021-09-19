@@ -15,7 +15,7 @@ int main () {
     Square Sqr3(cin);
     Square Sqr4(Sqr3);
     Sqr1.Print(cout);
-    cout << Sqr2.VertexNumbers() << endl;
+    cout << Sqr2.VertexesNumbers() << endl;
     cout << "Square area is " << Sqr2.Area() << endl;
     Figure *f = new Square(Sqr2);
     delete f;
@@ -25,7 +25,7 @@ int main () {
     Rectangle Rec3(cin);
     Rectangle Rec4(Rec3);
     Rec1.Print(cout);
-    cout << Rec1.VertexNumbers() << endl;
+    cout << Rec1.VertexesNumbers() << endl;
     cout << "Rectangle area is " << Rec2.Area() << endl;
     f = new Rectangle(Rec2);
     delete f;
@@ -38,7 +38,7 @@ int main () {
     Trapezoid Trp4(Trp1);
     cout << "Trapezoid area is " << Trp2.Area() << endl;
     Trp3.Print(cout);
-    cout << Trp4.VertexNumbers() << endl;
+    cout << Trp4.VertexesNumbers() << endl;
     f = new Trapezoid(Trp4);
     delete f;
     return 0;

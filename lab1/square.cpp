@@ -40,6 +40,6 @@ Square::~Square() {
     cout << "Square was deleted" << endl;
 }
 
-size_t Square::VertexNumbers() {
+size_t Square::VertexesNumbers() {
     return 4;
 }

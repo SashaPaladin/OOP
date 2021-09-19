@@ -37,6 +37,6 @@ Rectangle::~Rectangle() {
     cout << "Rectangle was deleted" << endl;
 }
 
-size_t Rectangle::VertexNumbers() {
+size_t Rectangle::VertexesNumbers() {
     return 4;
 }

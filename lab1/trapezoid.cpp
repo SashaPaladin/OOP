@@ -40,6 +40,6 @@ Trapezoid::~Trapezoid() {
     cout << "Trapezoid was deleted" << endl;
 }
 
-size_t Trapezoid::VertexNumbers() {
+size_t Trapezoid::VertexesNumbers() {
     return 4;
 }
