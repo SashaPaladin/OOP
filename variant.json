@@ -10,6 +10,23 @@
     "TStack"
   ],
   "finished_labs": {
-    "lab1": "lab1"
-  }
+    "lab0.1:4": "lab0.1",
+    "lab0.2:4": "lab0.2",
+    "lab1:4": "lab1",
+    "lab2:4": "lab2",
+    "lab3:4": "lab3",
+    "lab4:4": "lab4",
+    "lab5:4": "lab5",
+    "lab6:4": "lab6"
+  },
+  "reports": [
+    "lab1",
+    "lab2",
+    "lab3",
+    "lab4",
+    "lab5",
+    "lab6",
+    "lab7",
+    "lab8"
+  ]
 }

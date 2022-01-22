@@ -8,9 +8,9 @@ public:
   Point();
   Point(std::istream &is);
   Point(double x, double y);
-  double dist(Point &other);
   friend bool operator == (Point& p1, Point& p2);
-  friend class Pentagon;
+  friend class Trapezoid;
+  double dist(Point& other);
   double X();
   double Y();
   friend std::istream& operator>>(std::istream& is, Point& p);
